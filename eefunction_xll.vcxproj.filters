@@ -15,12 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="xll_template.cpp">
+    <ClCompile Include="eefunction_xll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IF97.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="xll_template.h">
+    <ClInclude Include="eefunction_xll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="steamprop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IF97.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
