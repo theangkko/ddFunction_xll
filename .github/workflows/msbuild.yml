@@ -22,8 +22,8 @@ jobs:
 
     strategy:
       matrix:
-          configuration: [Debug,Release]
-          # configuration: [Debug]
+          configuration: [Debug]
+          # configuration: [Debug,Release]
             
     runs-on: windows-latest
 
