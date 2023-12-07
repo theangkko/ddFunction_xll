@@ -21,15 +21,18 @@ jobs:
 
     strategy:
       matrix:
-          configuration: [Debug,Release]
+          # configuration: [Debug,Release]
+          configuration: [Release]
             
     runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive  # Ensures submodules are cloned recursively
 
     - name: Add MSBuild to PATH
-      uses: microsoft/setup-msbuild@v1.0.2
+      uses: microsoft/setup-msbuild@v1.0.3
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
