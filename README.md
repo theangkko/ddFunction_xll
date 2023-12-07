@@ -3,6 +3,7 @@
 <br>
 
 ```
+git rm -r --cached .
 git submodule add https://github.com/xlladdins/xll
 git submodule update
 ```
@@ -10,7 +11,7 @@ git submodule update
 
 ```
 cd D:\repo\ddFunction_xll
-msbuild ddFunction_xll.sln /t:ddFunction_xll:clean /p:Configuration="Release" /p:Platform="x64" /p:BuildProjectReferences=false
+msbuild ddFunction_xll.sln /t:ddFunction_xll:rebuild /p:Configuration="Release" /p:Platform="x64" /p:BuildProjectReferences=false
 
 
 ```
