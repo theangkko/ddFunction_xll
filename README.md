@@ -1,4 +1,26 @@
-# PUT-YOUR-README-HERE
+# ddFunction_XLL
+
+<br>
+
+```
+git submodule add https://github.com/xlladdins/xll
+git submodule update
+```
+<br>
+
+```
+cd D:\repo\ddFunction_xll
+msbuild ddFunction_xll.sln /t:ddFunction_xll:clean /p:Configuration="Release" /p:Platform="x64" /p:BuildProjectReferences=false
+
+
+```
+
+<br><br>
+
+---
+
+## 
+
 
 This project gets you up and running with the [xll library](https://github.com/xlladdins/xll.git)
 for creating high performance Excel add-ins written in C++, or C, or any language

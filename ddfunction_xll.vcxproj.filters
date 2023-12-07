@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="eefunction_xll.cpp">
+    <ClCompile Include="ddfunction_xll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="IF97.cpp">
@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="eefunction_xll.h">
+    <ClInclude Include="ddfunction_xll.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="steamprop.h">
