@@ -4319,13 +4319,14 @@ namespace IF97
                 return Tval;                                     // REGION 4, already have Temperature
             else                                                 //
                 return RegionOutputBackward(Pval, h, IF97_HMASS);  // Not REGION 4 Calc from Backward T(p,h)
-        }}  // Region Output backward
+        }
+    }  // Region Output backward
 
-    // ******************************************************************************** //
-    //                                     API                                          //
-    // ******************************************************************************** //
+// ******************************************************************************** //
+//                                     API                                          //
+// ******************************************************************************** //
 
-    /// Get the mass density [kg/m^3] as a function of T [K] and p [Pa]
+/// Get the mass density [kg/m^3] as a function of T [K] and p [Pa]
     inline double rhomass_Tp(double T, double p) { return RegionOutput(IF97_DMASS, T, p, NONE); };
     /// Get the mass enthalpy [J/kg] as a function of T [K] and p [Pa]
     inline double hmass_Tp(double T, double p) { return RegionOutput(IF97_HMASS, T, p, NONE); };

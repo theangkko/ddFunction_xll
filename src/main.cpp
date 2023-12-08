@@ -9,6 +9,21 @@ using namespace xll;
 using namespace IF97;
 
 
+#ifdef _DEBUG
+
+// Create XML documentation and index.html in `$(TargetPath)` folder.
+// Use `xsltproc file.xml -o file.html` to create HTML documentation.
+//Auto<Open> xao_template_docs([]() {
+//
+//	return Documentation("MATH", "Documentation for the xll_template add-in.");
+//
+//});
+
+#endif // _DEBUG
+
+
+
+
 AddIn xai_tgamma(
 	// Return double, C++ name of function, Excel name.
 	Function(XLL_DOUBLE, "xll_tgamma", "TGAMMA")
@@ -59,17 +74,6 @@ int WINAPI xll_macro(void)
 	return TRUE;
 }
 
-#ifdef _DEBUG
-
-// Create XML documentation and index.html in `$(TargetPath)` folder.
-// Use `xsltproc file.xml -o file.html` to create HTML documentation.
-Auto<Open> xao_template_docs([]() {
-
-	return Documentation("MATH", "Documentation for the xll_template add-in.");
-
-});
-
-#endif // _DEBUG
 
 
 
