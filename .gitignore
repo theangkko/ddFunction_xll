@@ -4,8 +4,10 @@
 
 src/.vs
 src/.vs/xllproject1/v16
-/Debug
-/x64/Debug
-/Release
-/x64/Release
+**/Debug
+**/Release
+**/x64/Debug
+**/x64/Release
+
+
 
