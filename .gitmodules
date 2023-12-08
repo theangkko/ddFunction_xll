@@ -1,4 +1,4 @@
-[submodule "xll"]
-	path = /src/xll
+[submodule "src/xll"]
+	path = src/xll
 	url = https://github.com/xlladdins/xll
 	branch = master
