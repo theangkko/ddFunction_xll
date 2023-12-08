@@ -4,7 +4,7 @@
 
 ```
 git rm -r --cached .
-git submodule add https://github.com/xlladdins/xll /src/xll
+git submodule add https://github.com/xlladdins/xll src/xll
 git submodule update
 ```
 <br>
