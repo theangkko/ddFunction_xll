@@ -1,0 +1,7 @@
+﻿  main.cpp
+  IF97.cpp
+  temp_source.cpp
+  Generating Code...
+D:\repo\ddFunction_xll\IF97.h(4315): error C2220: the following warning is treated as an error
+D:\repo\ddFunction_xll\IF97.h(4315): warning C4701: potentially uninitialized local variable 'Pval' used
+D:\repo\ddFunction_xll\IF97.h(4313): warning C4701: potentially uninitialized local variable 'Tval' used
